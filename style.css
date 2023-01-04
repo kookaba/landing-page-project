@@ -4,3 +4,18 @@
     font-family: 'Roboto', sans-serif;
     border: 1px solid red;
 }
+.banner {
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo {
+    
+}
+.header-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-links a {
+    align-self: center;
+}
