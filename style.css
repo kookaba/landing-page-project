@@ -19,7 +19,11 @@ body,
 .sign-up,
 .sectionone,
 .box-container,
-.box-column {
+.box-column,
+.sectiontwo,
+.sectionthree,
+.call,
+.footer {
     display: flex;
 }
 
@@ -85,6 +89,11 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    border-radius: 10px;
+}
+
+.sign-up:hover {
+    background-color: #94bdff;
 }
 
 .header-main-right {
@@ -169,15 +178,52 @@ body {
 .sectiontwo {
     flex: 3;
     background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    padding: 0 30px;
+    margin: 0 20%;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bolder;
+    padding-left: 20%;
 }
 
 .sectionthree {
     flex: 2;
     background-color: #F9FAF8;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin: 3% 0;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+
+.sectionthree .sign-up {
+    border: 1px white solid;
+    margin: 10px 0px 10px 20px;
 }
 
 .footer {
     background-color: #1F2937;
+    justify-content: center;
+    padding: 20px;
+    color: #F9FAF8;
+    font-size: 12px;
 }
 
 /*
@@ -186,6 +232,5 @@ Colors
 #E5E7EB GREY
 #F9FAF8 LIGHT
 
-spent 2 hours and 30 minutes getting 
-the header and first section done.
+
 */
