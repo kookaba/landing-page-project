@@ -4,3 +4,20 @@
     font-family: 'Roboto', sans-serif;
     border: 1px solid red;
 }
+
+body, .header, .banner, .banner ul {
+    display: flex;
+}
+
+body {
+    flex-direction: column;
+}
+
+.header {
+    flex-direction: column;
+}
+
+.banner {
+    justify-content: space-between;
+    align-items: center;
+}
