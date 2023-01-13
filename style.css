@@ -83,10 +83,12 @@ body {
     align-items: center;
     margin-top: 10px;
     border-radius: 10px;
+    transition: background-color 1s;
 }
 
 .sign-up:hover {
     background-color: #94bdff;
+    cursor: pointer;
 }
 
 .header-main-right {
@@ -106,10 +108,20 @@ body {
 }
 
 .header-main-right ul li {
+    padding: 20px 0;
     font-size: 18px;
     color: #E5E7EB;
+    border-radius: 10px;
     flex-direction: row;
     align-items: center;
+    transition: padding 1s, background-color 1s, color 1s, transform 1s;
+}
+
+.header-main-right ul li:hover {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    transform: scale(1.2);
+    padding: 20px;
 }
 
 .header-image {
@@ -169,6 +181,11 @@ body {
     border: 5px solid #3882F6;
     overflow: hidden;
     border-radius: 10px;
+    transition: opacity .5s;
+}
+
+.box:hover {
+    opacity: .5;
 }
 
 .img-one {
