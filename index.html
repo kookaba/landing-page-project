@@ -4,33 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="./style.css" rel="stylesheet">
     <title>Landing Page</title>
 </head>
 <body>
     <div class="header">
-        <div class="banner">
-            <div class="header-logo">Header Logo</div>
-            <ul>
-                <li>header link one</li>
-                <li>header link two</li>
-                <li>header link three</li>
-            </ul>
-        </div>
         <div class="header-main-container">
             <div class="header-main-left">
-                <div class="header-title">This website is awesome</div>
-                <div class="header-subtext">This website has some subtext 
-                    that goes here under the main title. 
-                    It's a smaller font and the color is 
-                    lower contrast.</div>
-                <div class="sign-up">Sign up</div>
+                <div class="banner">
+                    <div class="header-logo">Header Logo</div>
+                </div>
+                <div class="header-text">
+                    <div class="header-title">This website is awesome</div>
+                    <div class="header-subtext">This website has some subtext 
+                        that goes here under the main title. 
+                        It's a smaller font and the color is 
+                        lower contrast.</div>
+                    <div class="sign-up">Sign up</div>
+                </div>
             </div>
             <div class="header-main-right">
-                <img src="./images/security.jpg">
+                <ul class="banner">
+                    <li>header link one</li>
+                    <li>header link two</li>
+                    <li>header link three</li>
+                </ul>
+                <div class="header-image">
+                    <img src="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                </div>
             </div>
         </div>
 
@@ -41,25 +42,25 @@
             <div class="box-container">
                 <div class="box-column">
                     <div class="box">
-                        <img class="img-one" src="./images/remote.jpg">
+                        <img class="img-one" src="./images/remote.jpg"> <!-- needs to be replaced -->
                     </div>
                     <div class="box-text">this is some subtext under and illustration or image</div>
                 </div>
                 <div class="box-column">
                     <div class="box">
-                        <img class="img-two" src="./images/hardware.jpeg">
+                        <img class="img-two" src="https://images.pexels.com/photos/2582935/pexels-photo-2582935.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
                     </div>
                     <div class="box-text">this is some subtext under and illustration or image</div>
                 </div>
                 <div class="box-column">
                     <div class="box">
-                        <img class="img-three" src="./images/customerservice.jpg">
+                        <img class="img-three" src="https://images.pexels.com/photos/7709085/pexels-photo-7709085.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
                     </div>
                     <div class="box-text">this is some subtext under and illustration or image</div>
                 </div>
                 <div class="box-column">
                     <div class="box">
-                        <img class="img-four" src="./images/dashboard.jpg">
+                        <img class="img-four" src="./images/dashboard.jpg"> <!-- needs to be replaced -->
                     </div>
                     <div class="box-text">this is some subtext under and illustration or image</div>
                 </div>
@@ -84,9 +85,12 @@
             </div>
         </div>
     </div>
-    <div class="footer">The Landing Page by Daniel Price<br>Template from The Odin Project</div>
+    <div class="footer">
+        <ul class="footer-list">
+            <li>The Landing Page by Daniel Price</li>
+            <li>Template from The Odin Project</li>
+            <li>Any images used are from pexels.com</li>
+        </ul>
+    </div>
 </body>
-<footer>
-
-</footer>
 </html>
