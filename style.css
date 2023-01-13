@@ -5,7 +5,12 @@
     border: 1px solid red;
 }
 
-body, .header, .banner, .banner ul {
+body,
+ .header, 
+ .banner, 
+ .banner ul, 
+ .header-main-container, 
+.header-main-left {
     display: flex;
 }
 
@@ -15,9 +20,47 @@ body {
 
 .header {
     flex-direction: column;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    flex: 1;
 }
 
 .banner {
     justify-content: space-between;
     align-items: center;
+    margin: 0 15%;
 }
+
+.banner ul {
+    gap: 10px;
+    list-style: none;
+}
+
+.header-main-container {
+    margin: 0 15%;
+}
+
+.header-main-left {
+    flex-direction: column;
+    flex: 1;
+}
+
+.header-title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header-main-right {
+    flex: 1;
+}
+
+img {
+    height: 100px;
+}
+
+/*
+Colors
+#1F2937 DARK
+#E5E7EB GREY
+#F9FAF8 LIGHT
+*/
