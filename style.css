@@ -82,7 +82,7 @@ body {
 
 .header-subtext {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #757679;
 }
 
 .sign-up {
@@ -91,7 +91,7 @@ body {
     width: 100px;
     margin-top: 10px;
     border-radius: 10px;
-    transition: background-color 1s;
+    transition: background-color .5s;
 }
 
 .sign-up:hover {
