@@ -7,10 +7,10 @@ html {
 }
 
 body,
- .header,
- .header-main-right ul,
- .header-main-right ul li, 
- .header-main-container, 
+.top-header,
+.header-main-right ul,
+.header-main-right ul li, 
+.header-main-container, 
 .header-main-left,
 .header-main-right,
 .main,
@@ -21,9 +21,19 @@ body,
 .sectiontwo,
 .sectionthree,
 .call,
-.footer,
+footer,
 .footer-list {
     display: flex;
+}
+
+.sign-up,
+.header-main-right,
+.sectionone,
+.box-container,
+.box-column,
+.sectionthree {
+	justify-content: center;
+	align-items: center;
 }
 
 body {
@@ -31,7 +41,7 @@ body {
     flex-direction: column;
 }
 
-.header {
+.top-header {
     flex-direction: column;
     background-color: #1F2937;
     color: #F9FAF8;
@@ -79,8 +89,6 @@ body {
     background-color: #3882F6;
     height: 30px;
     width: 100px;
-    justify-content: center;
-    align-items: center;
     margin-top: 10px;
     border-radius: 10px;
     transition: background-color 1s;
@@ -94,8 +102,6 @@ body {
 .header-main-right {
     flex-direction: column;
     flex: 1;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .header-main-right ul {
@@ -148,11 +154,9 @@ body {
     flex: 3;
     background-color: #F9FAF8;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
-.sectionone-title {
+.sectionone-header {
     font-size: 36px;
     font-weight: bolder;
     color:#1F2937;
@@ -160,8 +164,6 @@ body {
 }
 
 .box-container {
-    justify-content: center;
-    align-items: center;
     gap: 10%;
     padding: 2%
 }
@@ -169,8 +171,6 @@ body {
 .box-column {
     width: 250px;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 5%;
 }
 
@@ -226,7 +226,7 @@ body {
     font-size: 36px;
     padding: 0 30px;
     margin: 0 20%;
-    color: #1F2937;
+    color: #5b636d;
     font-style: italic;
 }
 
@@ -240,8 +240,6 @@ body {
     flex: 2;
     background-color: #F9FAF8;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .call {
@@ -261,7 +259,7 @@ body {
     margin: 10px 0px 10px 20px;
 }
 
-.footer {
+footer {
     background-color: #1F2937;
     justify-content: center;
     padding: 20px;
