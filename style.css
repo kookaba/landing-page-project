@@ -13,6 +13,7 @@ body,
 .header-main-container, 
 .header-main-left,
 .header-main-right,
+.header-image-crop,
 .main,
 .sign-up,
 .sectionone,
@@ -130,19 +131,19 @@ body {
     padding: 20px;
 }
 
-.header-image {
-    background-color: #3882F6;
+.header-image-crop {
     height: 300px;
-    width: 100%;
+    width: fit-content;
     margin: 50px 0;
     overflow: hidden;
     border-radius: 20px;
-    box-shadow: 4px 8px 1px #3882F6;
+    box-shadow: 2px 2px 1px #5b636d;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-main-right img {
     height: 400px;
-    margin: -10% 0;
 }
 
 .main {
